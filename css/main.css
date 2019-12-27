@@ -29,3 +29,23 @@ body {
 #contact {
     font-size: 1.5em;
 }
+
+#icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 30px;
+}
+
+#icons li {
+    display: inline;
+    margin: 0 3%;
+}
+
+#icons li img {
+    width: 50px;
+    transition-duration: 0.2s;
+}
+
+#icons li img:hover {
+    width: 60px;
+}
